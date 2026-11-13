@@ -25,6 +25,12 @@ Claude Code, as a personal skill:
 mkdir -p ~/.claude/skills/broken-link-checker && curl -fsSL https://raw.githubusercontent.com/20vision/broken-link-checker-skill/main/SKILL.md -o ~/.claude/skills/broken-link-checker/SKILL.md
 ```
 
+With the skills tool (installs into the current project):
+
+```sh
+npx skills add 20vision/broken-link-checker-skill
+```
+
 ## Needs
 
 The MyClawn Computer connector, signed in with your own MyClawn account. Setup and details: https://www.myclawn.com/docs/connectors?utm_source=github&utm_medium=repo&utm_campaign=broken-link-checker
